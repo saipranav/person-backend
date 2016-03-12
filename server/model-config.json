@@ -33,7 +33,7 @@
     "public": false
   },
   "person": {
-    "dataSource": "local-mongodb",
+    "dataSource": "mongodb",
     "public": true
   }
 }

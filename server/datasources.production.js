@@ -4,9 +4,9 @@ module.exports = {
     "name" : "db"
   } ,
   "mongodb" : {
-    "connector" : "mongodb" ,
-    "host" : process.env.MONGODB_PORT_27017_TCP_ADDR ,
-    "name" : "mongodb" ,
-    "port" : process.env.MONGODB_PORT_27017_TCP_PORT
+  	"connector" : "mongodb" ,
+  	"name" : "mongodb" ,
+  	"host" : "database-mongo.service.consul" ,
+  	"port" : 27017
   }
 };
